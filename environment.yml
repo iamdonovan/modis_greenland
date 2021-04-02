@@ -1,0 +1,9 @@
+name: modis_greenland
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.8
+  - xarray
+  - netcdf4
+  - gdal
